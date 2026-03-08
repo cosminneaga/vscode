@@ -148,7 +148,8 @@
 	"geminicodeassist.inlineSuggestions.enableAuto": false,
 	"continue.showInlineTip": false,
 	"files.associations": {
-		"*.log": "log"
+		"*.log": "log",
+        "*.css": "tailwindcss"
 	},
 	"workbench.colorCustomizations": {
 		"[Vira*]": {

@@ -3,7 +3,7 @@
 	"workbench.editorAssociations": {
 		"*.copilotmd": "vscode.markdown.preview.editor",
 		"*.xlsx": "default",
-		"*.md": "default"
+		"*.md": "default",
 	},
 	"redhat.telemetry.enabled": true,
 	"explorer.confirmDelete": false,
@@ -16,52 +16,52 @@
 		"typescript",
 		"javascriptreact",
 		"typescriptreact",
-		"html"
+		"html",
 	],
 	"javascript.validate.enable": false,
 	"workbench.startupEditor": "none",
 	"gitlens.advanced.messages": {
-		"suppressLineUncommittedWarning": true
+		"suppressLineUncommittedWarning": true,
 	},
 	"security.workspace.trust.untrustedFiles": "open",
 	"git.openRepositoryInParentFolders": "never",
 	"liveServer.settings.donotVerifyTags": true,
 	"explorer.confirmDragAndDrop": false,
 	"[html]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
 	},
 	"avdmanager.sdkPath": "c:\\Users\\cosmi\\.android\\avd",
 	"[typescriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
 	},
 	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
 	},
 	"github.copilot.enable": {
 		"*": false,
 		"plaintext": false,
 		"markdown": false,
 		"scminput": false,
-		"enabled": false
+		"enabled": false,
 	},
 	"emulator.emulatorPath": "C:\\Users\\cosmi\\AppData\\Local\\Android\\Sdk\\emulator",
 	"[vue]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
 	},
 	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
 	},
 	"extensions.ignoreRecommendations": true,
 	"editor.gotoLocation.multipleDefinitions": "goto",
 	"[typescript]": {
-		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
 	},
 	"editor.formatOnPaste": true,
-	"editor.formatOnSave": false,
-	"editor.formatOnType": false,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
 	"liveServer.settings.donotShowInfoMsg": true,
 	"[css]": {
-		"editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+		"editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter",
 	},
 	"prettier.quoteProps": "consistent",
 	"vite.autoStart": false,
@@ -76,10 +76,10 @@
 		"rgba(100,116,139,0.07)", // Pale slate
 		"rgba(120,113,108,0.07)", // Pale stone
 		"rgba(128,128,128,0.07)", // Pale gray
-		"rgba(139,92,246,0.07)" // Pale violet
+		"rgba(139,92,246,0.07)", // Pale violet
 	],
 	"[jsonc]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
 	},
 	"workbench.secondarySideBar.defaultVisibility": "hidden",
 	"editor.guides.highlightActiveIndentation": "always",
@@ -87,10 +87,10 @@
 		"editor.insertSpaces": true,
 		"editor.tabSize": 2,
 		"editor.autoIndent": "advanced",
-		"editor.defaultFormatter": "redhat.vscode-yaml"
+		"editor.defaultFormatter": "redhat.vscode-yaml",
 	},
 	"[github-actions-workflow]": {
-		"editor.defaultFormatter": "redhat.vscode-yaml"
+		"editor.defaultFormatter": "redhat.vscode-yaml",
 	},
 	"gitlens.ai.model": "vscode",
 	"gitlens.ai.vscode.model": "copilot:gpt-4.1",
@@ -102,25 +102,25 @@
 	"terminal.integrated.profiles.linux": {
 		"bash": {
 			"path": "bash",
-			"icon": "terminal-bash"
+			"icon": "terminal-bash",
 		},
 		"zsh": {
-			"path": "zsh"
+			"path": "zsh",
 		},
 		"fish": {
-			"path": "fish"
+			"path": "fish",
 		},
 		"tmux": {
 			"path": "tmux",
-			"icon": "terminal-tmux"
+			"icon": "terminal-tmux",
 		},
 		"pwsh": {
 			"path": "pwsh",
-			"icon": "terminal-powershell"
+			"icon": "terminal-powershell",
 		},
 		"bash (2)": {
-			"path": "/usr/bin/bash"
-		}
+			"path": "/usr/bin/bash",
+		},
 	},
 	"terminal.integrated.defaultProfile.linux": "bash (2)",
 	"prettier.useTabs": true,
@@ -128,20 +128,20 @@
 	"github.copilot.chat.terminalChatLocation": "terminal",
 	"github.copilot.chat.completionsFetcher": "node-fetch",
 	"[markdown]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
 	},
 	"tabnine.experimentalAutoImports": true,
 	"yaml.schemas": {
 		"file:///home/cosmin/.vscode/extensions/continue.continue-1.2.10-linux-x64/config-yaml-schema.json": [
-			".continue/**/*.yaml"
-		]
+			".continue/**/*.yaml",
+		],
 	},
 	"continue.enableConsole": true,
 	"continue.enableQuickActions": true,
 	"chat.agent.enabled": false,
 	"chat.instructionsFilesLocations": {
 		".github/instructions": true,
-		"/home/cosmin/.aitk/instructions/": true
+		"/home/cosmin/.aitk/instructions/": true,
 	},
 	"editor.selectionClipboard": false,
 	"editor.multiCursorModifier": "ctrlCmd",
@@ -149,7 +149,7 @@
 	"continue.showInlineTip": false,
 	"files.associations": {
 		"*.log": "log",
-        "*.css": "tailwindcss"
+		"*.css": "tailwindcss",
 	},
 	"workbench.colorCustomizations": {
 		"[Vira*]": {
@@ -203,8 +203,8 @@
 			"chat.avatarForeground": "#80CBC4",
 			"activityBarBadge.foreground": "#000000",
 			"button.foreground": "#000000",
-			"statusBarItem.remoteHoverForeground": "#000000"
-		}
+			"statusBarItem.remoteHoverForeground": "#000000",
+		},
 	},
 	"editor.semanticHighlighting.enabled": true,
 	"editor.semanticTokenColorCustomizations": {
@@ -249,10 +249,9 @@
 			"variable.readonly": { "foreground": "#94ccf4", "fontStyle": "italic" },
 			"variable.static": "#E5C07B",
 			"variable.global": { "fontStyle": "bold" },
-			"*.unused": { "foreground": "#6B6B6B" }
-		}
+			"*.unused": { "foreground": "#6B6B6B" },
+		},
 	},
-	"editor.fontSize": 14,
 	"editor.fontFamily": "Fira Code",
 	"editor.fontLigatures": true,
 	"javascript.updateImportsOnFileMove.enabled": "never",
@@ -266,12 +265,12 @@
 	"yaml.format.printWidth": 90,
 	"php.validate.executablePath": "/home/cosmin/.config/herd-lite/bin/php",
 	"[liquid]": {
-		"editor.defaultFormatter": "vscode.html-language-features"
+		"editor.defaultFormatter": "vscode.html-language-features",
 	},
 	"workbench.editor.empty.hint": "hidden",
 	"typescript.preferences.organizeImports": {
 		"accentCollation": true,
-		"caseFirst": "lower"
+		"caseFirst": "lower",
 	},
 	"eslint.format.enable": true,
 	"explorer.openEditors.sortOrder": "alphabetical",
@@ -279,7 +278,7 @@
 	"window.doubleClickIconToClose": true,
 	"workbench.list.scrollByPage": true,
 	"workbench.view.showQuietly": {
-		"workbench.panel.output": false
+		"workbench.panel.output": false,
 	},
 	"codesnap.showWindowTitle": true,
 	"codesnap.realLineNumbers": true,
@@ -292,15 +291,14 @@
 	"workbench.activityBar.iconClickBehavior": "focus",
 	"workbench.iconTheme": "vscode-icons",
 	"[shellscript]": {
-		"editor.defaultFormatter": "shakram02.bash-beautify"
+		"editor.defaultFormatter": "shakram02.bash-beautify",
 	},
-	"workbench.panel.defaultLocation": "right",
 	"[blade]": {
-		"editor.defaultFormatter": "shufo.vscode-blade-formatter"
+		"editor.defaultFormatter": "shufo.vscode-blade-formatter",
 	},
 	"[php]": {
 		"editor.defaultFormatter": "laravel.vscode-laravel",
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
 	},
 	"laravel-pint.enable": true,
 	"editor.acceptSuggestionOnEnter": "off",
@@ -310,5 +308,5 @@
 	"workbench.editor.tabSizingFixedMaxWidth": 80,
 	"bladeFormatter.format.wrapAttributes": "force-expand-multiline",
 	"html.format.wrapAttributes": "force-expand-multiline",
-	"bladeFormatter.format.sortHtmlAttributes": "code-guide"
+	"bladeFormatter.format.sortHtmlAttributes": "code-guide",
 }

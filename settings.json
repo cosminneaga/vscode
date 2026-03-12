@@ -252,7 +252,7 @@
 			"*.unused": { "foreground": "#6B6B6B" },
 		},
 	},
-	"editor.fontFamily": "Fira Code",
+	"editor.fontFamily": "Ubuntu Mono",
 	"editor.fontLigatures": true,
 	"javascript.updateImportsOnFileMove.enabled": "never",
 	"editor.minimap.autohide": "scroll",
